@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:baselineAligned="false" >
+	    <LinearLayout
+	        android:id="@+id/linear_layout1"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2" 
+	        android:orientation="vertical" > 
+	        <View
+	            android:id="@+id/view1"
+	        	android:layout_width="match_parent"
+	        	android:layout_height="0dp"
+	        	android:layout_weight="2" 
+	        	android:orientation="vertical"/>
+	       	<View
+	            android:id="@+id/view2"
+	        	android:layout_width="match_parent"
+	        	android:layout_height="0dp"
+	        	android:layout_weight="2" 
+	        	android:orientation="vertical"/>
+	    </LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/linear_layout2"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="2" 
+	        android:orientation="vertical">
+	       	<View
+	            android:id="@+id/view3"
+	        	android:layout_width="match_parent"
+	        	android:layout_height="0dp"
+	        	android:layout_weight="1" 
+	        	android:orientation="vertical"/>
+	       	<View
+	            android:id="@+id/view4"
+	        	android:layout_width="match_parent"
+	        	android:layout_height="0dp"
+	        	android:layout_weight="1" 
+	        	android:orientation="vertical"
+	        	android:background="#9e9e9e" />
+	       	<View
+	            android:id="@+id/view5"
+	        	android:layout_width="match_parent"
+	        	android:layout_height="0dp"
+	        	android:layout_weight="1" 
+	        	android:orientation="vertical" />
+	    </LinearLayout>
+    </LinearLayout>
+    <SeekBar
+		android:id="@+id/seek_bar"
+		android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:max="100"
+	    android:progress="0" />
+</LinearLayout>
+
