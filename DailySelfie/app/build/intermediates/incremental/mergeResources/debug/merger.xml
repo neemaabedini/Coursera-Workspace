@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="stub"
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/drawable-hdpi/stub.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="place_badge_view"
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/layout/place_badge_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="open_camera" >Click to open Camera
+                </string>
+                <string name="app_name" >DailySelfie
+                </string>
+                <string name="no_country_string" >There is no country at this location
+                </string>
+                <string name="mock_name_united_states_string" >United States
+                </string>
+                <string name="selfie_name" >Selfie Name
+                </string>
+            </file>
+            <file
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="selfie_detail_view"
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/layout/selfie_detail_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="notification_tweet"
+                path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/main/res/raw/notification_tweet.mp3"
+                qualifiers=""
+                type="raw" />
+        </source>
+        <source path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/build/generated/res/rs/debug" />
+        <source path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/Neema/AndroidStudioProjects/DailySelfie/app/src/debug/res" />
+    </dataSet>
+
+</merger>

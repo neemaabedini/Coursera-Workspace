@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/Neema/AndroidStudioProjects/LocationLab/app/build/intermediates/pre-dexed/test/debug/robotium-solo-5.2.1-ab86800e6b449c0e27ceef9bb6acf148827f859b.jar"
+        jar="/Users/Neema/.gradle/caches/modules-2/files-2.1/com.jayway.android.robotium/robotium-solo/5.2.1/56ab8d87d966a067ee3795ee137fbd51b6581ec9/robotium-solo-5.2.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="56ab8d87d966a067ee3795ee137fbd51b6581ec9"/>
+
+</pre-dex-items>

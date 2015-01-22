@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DailySelfie</string>
+    <string name="no_country_string">There is no country at this location</string>
+    <string name="mock_name_united_states_string">United States</string>
+    <string name="open_camera">Click to open Camera</string>
+    <string name="selfie_name">Selfie Name</string>
+
+</resources>
